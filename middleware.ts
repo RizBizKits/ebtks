@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 // The country to block from accessing the secret page
-const BLOCKED_COUNTRY = "SE";
+const BLOCKED_COUNTRY = "US";
 
 // Trigger this middleware to run on the `/b` route
 export const config = {
