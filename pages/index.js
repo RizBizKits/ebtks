@@ -29,8 +29,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/b" className={styles.card}>
-            <a>Edge Middleware</a>
+          <Link href="/b">
+            <a className={styles.card}>Edge Middleware</a>
           </Link>
         </div>
       </main>
