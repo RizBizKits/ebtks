@@ -26,6 +26,12 @@ export default function Home() {
         <p className={styles.description}>
           demos+examples+experiments+tutorials+vibes
         </p>
+
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Edge Middleware</h2>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
