@@ -10,7 +10,7 @@ export default function Home() {
         <title>EBTKS</title>
         <meta
           name="description"
-          content="Everything But The Kitchen Sink v1.2"
+          content="Everything But The Kitchen Sink v1.3"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
