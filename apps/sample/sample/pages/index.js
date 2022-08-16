@@ -8,7 +8,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>EBTKS</title>
-        <meta name="description" content="Everything But The Kitchen Sink v1" />
+        <meta
+          name="description"
+          content="Everything But The Kitchen Sink v1.1"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
