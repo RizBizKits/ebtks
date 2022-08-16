@@ -1,15 +1,10 @@
 {
-  "name": "ebtks",
-  "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*"
-  ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^12.2.4",
@@ -21,6 +16,6 @@
     "@types/react": "^18.0.17",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
-    "turbo": "latest"
+    "turbo": "^1.4.3"
   }
 }
