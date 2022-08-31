@@ -11,7 +11,7 @@
       ],
       "name": "middleware",
       "page": "/",
-      "regexp": "^/.*$",
+      "regexp": "^\\/b[\\/#\\?]?$",
       "wasm": [],
       "assets": []
     }

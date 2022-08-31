@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>EBTKS</title>
+        <title>EBTKS V1</title>
         <meta
           name="description"
           content="Everything But The Kitchen Sink v1.3"
